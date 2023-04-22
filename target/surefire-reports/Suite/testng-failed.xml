@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.automationcode_05thMarch_2023.RediffLogin">
+        <methods>
+          <include name="rediffTest"/>
+        </methods>
+      </class> <!-- com.automationcode_05thMarch_2023.RediffLogin -->
+      <class name="com.automationcode_25thMarch_2023.Rediff_CssSelector">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logInCredentials"/>
+          <include name="logOut"/>
+          <include name="clickOnSignInLink"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- com.automationcode_25thMarch_2023.Rediff_CssSelector -->
+      <class name="com.automationcode_25thMarch_2023.TN_CssSelector">
+        <methods>
+          <include name="CompleteLogin"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- com.automationcode_25thMarch_2023.TN_CssSelector -->
+      <class name="com.automationcode_2ndApril_2023.DataDriven">
+        <methods>
+          <include name="signinRediffMail" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.automationcode_2ndApril_2023.DataDriven -->
+      <class name="com.automationcode_19thMarch_2023.Facebook">
+        <methods>
+          <include name="AccountDetails"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.automationcode_19thMarch_2023.Facebook -->
+      <class name="com.automationcode_08thApril_2023.RediffCreateAccountTest">
+        <methods>
+          <include name="rediffCreateAccount"/>
+        </methods>
+      </class> <!-- com.automationcode_08thApril_2023.RediffCreateAccountTest -->
+      <class name="com.automationcode_19thMarch_2023.IntroductionToXpath">
+        <methods>
+          <include name="enterLogInCredentials"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.automationcode_19thMarch_2023.IntroductionToXpath -->
+      <class name="com.testng.assertion_2ndApril_2023.Soft_Assert_concept">
+        <methods>
+          <include name="logicTest"/>
+        </methods>
+      </class> <!-- com.testng.assertion_2ndApril_2023.Soft_Assert_concept -->
+      <class name="com.automationcode_18thMarch_2023.MoreConcepts_Automation">
+        <methods>
+          <include name="clickOnLogOutLink"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.automationcode_18thMarch_2023.MoreConcepts_Automation -->
+      <class name="com.testng.assertion_2ndApril_2023.HardAssert">
+        <methods>
+          <include name="logicTest"/>
+        </methods>
+      </class> <!-- com.testng.assertion_2ndApril_2023.HardAssert -->
+      <class name="com.testngcode_08thApr_2023.Parameterize_TN">
+        <methods>
+          <include name="TNLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testngcode_08thApr_2023.Parameterize_TN -->
+      <class name="learningTestNG.TestNG_Annotations">
+        <methods>
+          <include name="afterSuiteAnnotation"/>
+          <include name="afterMethodAnnotation"/>
+          <include name="beforeSuiteAnnotation"/>
+          <include name="afterClassAnnotation"/>
+          <include name="afterTestAnnotation"/>
+          <include name="beforeTestAnnotation"/>
+          <include name="testCase3Annotation"/>
+          <include name="beforeClassAnnotation"/>
+          <include name="befoeMethodAnnotation"/>
+        </methods>
+      </class> <!-- learningTestNG.TestNG_Annotations -->
+      <class name="com.testngcode_08thApr_2023.Parameterize_Rediff">
+        <methods>
+          <include name="rediffLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testngcode_08thApr_2023.Parameterize_Rediff -->
+      <class name="com.datadrivenassignmnt_08thApril.TN_Register_DDT">
+        <methods>
+          <include name="TNLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.datadrivenassignmnt_08thApril.TN_Register_DDT -->
+      <class name="com.automationcode_01stApril_2023.Actions_Frame">
+        <methods>
+          <include name="handlingFrames"/>
+        </methods>
+      </class> <!-- com.automationcode_01stApril_2023.Actions_Frame -->
+      <class name="com.fileHandling_08thApril_2023.Reading_From_Properties_File">
+        <methods>
+          <include name="TNLogin"/>
+          <include name="rediffLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.fileHandling_08thApril_2023.Reading_From_Properties_File -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
